@@ -1,23 +1,21 @@
 /*
- * Copyright (C) 2012 Evergreen Open-ILS
- * @author Daniel-Octavian Rizea
+ * Copyright (c) 2020 Kenneth H. Cox
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
  * as published by the Free Software Foundation; either version 2
- * or the License, or (at your option) any later version.
+ * of the License, or (at your option) any later version.
  *
- * This program is distributed in the hope that it will be usefull,
+ * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
- * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
- *
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
  */
-package org.evergreen_ils.accountAccess.fines;
+package org.evergreen_ils.views;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -34,6 +32,7 @@ import android.widget.Toast;
 import org.evergreen_ils.R;
 import org.evergreen_ils.accountAccess.AccountAccess;
 import org.evergreen_ils.accountAccess.SessionNotFoundException;
+import org.evergreen_ils.accountAccess.fines.FinesRecord;
 import org.evergreen_ils.android.Analytics;
 import org.evergreen_ils.searchCatalog.RecordDetails;
 import org.evergreen_ils.searchCatalog.RecordInfo;

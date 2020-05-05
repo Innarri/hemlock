@@ -42,10 +42,10 @@ import org.evergreen_ils.accountAccess.AccountAccess;
 import org.evergreen_ils.accountAccess.AccountUtils;
 import org.evergreen_ils.system.EgSearch;
 import org.evergreen_ils.views.BarcodeActivity;
-import org.evergreen_ils.accountAccess.bookbags.BookBagsActivity;
-import org.evergreen_ils.accountAccess.checkout.CheckoutsActivity;
-import org.evergreen_ils.accountAccess.fines.FinesActivity;
-import org.evergreen_ils.accountAccess.holds.HoldsActivity;
+import org.evergreen_ils.views.bookbags.BookBagsActivity;
+import org.evergreen_ils.views.CheckoutsActivity;
+import org.evergreen_ils.views.FinesActivity;
+import org.evergreen_ils.views.holds.HoldsActivity;
 import org.evergreen_ils.android.App;
 import org.evergreen_ils.searchCatalog.SearchActivity;
 import org.evergreen_ils.android.Analytics;
@@ -53,7 +53,7 @@ import org.evergreen_ils.system.EvergreenServer;
 import org.evergreen_ils.android.Log;
 import org.evergreen_ils.views.MainActivity;
 import org.evergreen_ils.views.MenuProvider;
-import org.evergreen_ils.views.splashscreen.SplashActivity;
+import org.evergreen_ils.views.launch.SplashActivity;
 
 /* Activity base class to handle common behaviours like the navigation drawer */
 public class BaseActivity extends AppCompatActivity

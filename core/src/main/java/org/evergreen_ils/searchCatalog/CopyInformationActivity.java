@@ -49,7 +49,7 @@ import org.evergreen_ils.system.Utils;
 import org.evergreen_ils.utils.ui.ActionBarUtils;
 import org.evergreen_ils.android.Analytics;
 import org.evergreen_ils.utils.ui.TextViewUtils;
-import org.evergreen_ils.views.splashscreen.SplashActivity;
+import org.evergreen_ils.views.launch.SplashActivity;
 import org.opensrf.util.GatewayResponse;
 
 import java.util.ArrayList;

@@ -32,16 +32,14 @@ import android.widget.TextView;
 
 import org.evergreen_ils.R;
 import org.evergreen_ils.accountAccess.AccountUtils;
-import org.evergreen_ils.accountAccess.bookbags.BookBagsActivity;
-import org.evergreen_ils.accountAccess.checkout.CheckoutsActivity;
-import org.evergreen_ils.accountAccess.fines.FinesActivity;
-import org.evergreen_ils.accountAccess.holds.HoldsActivity;
+import org.evergreen_ils.views.bookbags.BookBagsActivity;
 import org.evergreen_ils.android.App;
 import org.evergreen_ils.searchCatalog.SearchActivity;
 import org.evergreen_ils.android.Analytics;
 import org.evergreen_ils.system.EvergreenServerLoader;
 import org.evergreen_ils.android.Log;
 import org.evergreen_ils.utils.ui.BaseActivity;
+import org.evergreen_ils.views.holds.HoldsActivity;
 
 public class MainActivity extends BaseActivity {
 

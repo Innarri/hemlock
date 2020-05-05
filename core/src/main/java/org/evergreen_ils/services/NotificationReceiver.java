@@ -20,7 +20,7 @@
 package org.evergreen_ils.services;
 
 import org.evergreen_ils.android.Log;
-import org.evergreen_ils.views.splashscreen.SplashActivity;
+import org.evergreen_ils.views.launch.SplashActivity;
 
 import android.app.Notification;
 import android.app.NotificationManager;

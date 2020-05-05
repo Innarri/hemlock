@@ -26,9 +26,8 @@ import android.view.MenuItem;
 import org.evergreen_ils.R;
 import org.evergreen_ils.system.EgSearch;
 import org.evergreen_ils.utils.ui.*;
-import org.evergreen_ils.views.splashscreen.SplashActivity;
+import org.evergreen_ils.views.launch.SplashActivity;
 
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
